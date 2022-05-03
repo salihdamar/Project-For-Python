@@ -1,2 +1,2 @@
 # Python
-Iterate over the list using List Comprehension and [::-1]
+Iterate over the list and [::-1]
