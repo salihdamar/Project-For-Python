@@ -4,7 +4,8 @@ for ile  ' l ' listesinin elemanlarını tek tek tarıyoruz. Aslında for döng�
 if ile aldığımız elemanlar hala liste halinde mi yoksa eleman halinde mi. isinstance bunu sorguluyor. Eğer hala liste halinde ise tekrar
 elemanları listeden çıkarmak için if bloğu içerisinde tekrar flatten fonsiyonun çağırıyorum. Flatten fonksiyonu içerisinde Flatten fonsiyonunu
 tekrar tekrar çağırıyoruz. taki elemanlar liste halinde değilde tek düz halde olsun. liste halinde değilse lnew.append(i) ile lnew listesine ekliyoruz.
-kolay gelsin.
+
+
 l = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
 
 1- l[0]=[1,'a',['cat'],2]-->list tipinde ise liste tipinden çıkart
